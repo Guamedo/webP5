@@ -12,6 +12,8 @@
 
         .image-link {
             position: relative;
+            padding-bottom: 10px;
+            padding-top: 10px;
             width: 33%;
         }
 
@@ -33,6 +35,8 @@
             width: 100%;
             opacity: 0;
             transition: .5s ease;
+            padding-bottom: 10px;
+            padding-top: 10px;
         }
 
         .image-link:hover .overlay {

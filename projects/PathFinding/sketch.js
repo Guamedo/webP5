@@ -34,9 +34,6 @@ function setup(){
 
     goalPos = createVector(cols-1, rows-1);
 
-
-
-
     frameRate(120);
 }
 
@@ -46,7 +43,6 @@ function draw(){
 
     switch(state){
         case 0:
-
             // Draw greed
             for(let i = 0; i < cols; i++){
                 for(let j = 0; j < rows; j++){
@@ -67,8 +63,6 @@ function draw(){
             }else{
                 rect(mouseX-cellSize/2, mouseY-cellSize/2, cellSize, cellSize);
             }
-
-
             break;
         case 1:
             if (openSet.length > 0 && !found) {

@@ -1,6 +1,6 @@
 class Map{
     constructor(mapData){
-        this.cols = 31;
+        this.cols = 28;
         this.rows = 31;
         this.blockSize = 18;
         this.mapData = mapData;
@@ -9,13 +9,13 @@ class Map{
         this.enemyNumber = 0;
         this.foodPos = [];
         this.bigFoodPos = [];
-        this.blockPos = []
+        this.blockPos = [];
         this.doorPos = [];
     }
 
     load(){
-        for(let y = 0; y < this.cols; y++){
-            for(let x = 0; x < this.rows; x++){
+        for(let y = 0; y < this.rows; y++){
+            for(let x = 0; x < this.cols; x++){
                 let ch = this.mapData[y][x];
                 switch (ch){
                     case '#':
