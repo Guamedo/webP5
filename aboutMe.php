@@ -8,6 +8,15 @@
     <script language="javascript" type="text/javascript" src="projects/libraries/p5.min.js"></script>
     <script language="javascript" type="text/javascript" src="projects/libraries/addons/p5.dom.min.js"></script>
     <script language="javascript" type="text/javascript" src="sketch.js"></script>
+    <style>
+        .refLink a{
+            text-decoration: none;
+            color: black;
+        }
+        .refLink a:hover{
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
 
@@ -26,7 +35,9 @@
     </nav>
 
     <article>
-        <p>I like trains</p>
+        <p>I like red pandas</p>
+        <p class="refLink"><a href="https://github.com/Guamedo">Github</a></p>
+        <p class="refLink"><a href="https://twitter.com/gontxal64">Twitter</a></p>
     </article>
 
     <footer>
