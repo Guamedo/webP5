@@ -7,7 +7,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <script language="javascript" type="text/javascript" src="projects/libraries/p5.min.js"></script>
     <script language="javascript" type="text/javascript" src="projects/libraries/addons/p5.dom.min.js"></script>
-    <script language="javascript" type="text/javascript" src="sketch.js"></script>
+    <!--<script language="javascript" type="text/javascript" src="sketch.js"></script>-->
     <style>
         .refLink a{
             text-decoration: none;
